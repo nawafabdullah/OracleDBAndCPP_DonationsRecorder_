@@ -1,0 +1,8 @@
+The taxrecipt program recieves the client ID as a command line argument besides the program name, and then obtain the needed information from the database. 
+After getting the information from the database, the program prints a recipt with the total donations, and every donation that the client made in 2017.
+to build the program, you just type make in the terminal as I have already created the make file that will build the program and create the excutable named taxRecipt.
+
+The recordDonation program recieves 2 pieces of data from the user, which are the user ID and the donation amount the user wishes to make. it then validates the donation 
+amount and checks if it is a positive integer or not; if (cin.fail() || Donation_Amount < 0). if the entry is correct, the program will proceed with the transaction. 
+Otherwise, the program will keep asking for the correct value. 
+Note: to terminate the program, both entries obtained from the user should be '0s'   
